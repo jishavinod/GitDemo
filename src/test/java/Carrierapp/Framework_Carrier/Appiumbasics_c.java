@@ -49,6 +49,7 @@ public class Appiumbasics_c extends BaseTest_c {
   public void beforeTest() 
   {
 	  System.out.println("This is before test");
+	  System.out.println("2nd change");
   }
 
   @AfterTest

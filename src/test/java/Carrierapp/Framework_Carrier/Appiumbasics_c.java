@@ -56,6 +56,7 @@ public class Appiumbasics_c extends BaseTest_c {
   public void afterTest() 
   {
 	  System.out.println("This is after test");
+	  System.out.println("2nd change");
   }
 
 }

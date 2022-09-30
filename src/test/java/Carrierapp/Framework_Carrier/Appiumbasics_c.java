@@ -43,13 +43,19 @@ public class Appiumbasics_c extends BaseTest_c {
 	 //driver.findElement(By.xpath("//android.widget.Button[@resource-id='com.veritread.carrier.debug:id/buttonNext']")).click();
 			
 	 System.out.println("End of the Test Case");
+	 
   }
   @BeforeTest
-  public void beforeTest() {
+  public void beforeTest() 
+  {
+	  System.out.println("This is before test");
+	  System.out.println("2nd change");
   }
 
   @AfterTest
-  public void afterTest() {
+  public void afterTest() 
+  {
+	  System.out.println("This is after test");
   }
 
 }

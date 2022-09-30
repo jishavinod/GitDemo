@@ -45,6 +45,17 @@ public class Appiumbasics_c extends BaseTest_c {
 	 System.out.println("End of the Test Case");
 	 
   }
+
+@Test
+public void newtest()
+{
+	System.out.println("Test for git");
+}
+@Test
+public void newtest2()
+{
+	System.out.println("Test2 for git");
+}
   @BeforeTest
   public void beforeTest() 
   {

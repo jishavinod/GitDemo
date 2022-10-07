@@ -27,7 +27,7 @@ public class Appiumbasics_c extends BaseTest_c {
 @Test
   public void appiumtest() throws MalformedURLException, InterruptedException {
 
-	Loginpage lg=new Loginpage(driver);
+	Loginpage lg=new Loginpage(driver);  //test by deliya
 	lg.tapallow();
 	lg.tapQA();
 	lg.enterusername("devna1@mailinator.com");
